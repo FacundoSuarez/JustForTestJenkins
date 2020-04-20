@@ -1,0 +1,9 @@
+spring:
+    profiles:
+        active: dev
+        include: swagger
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        url: jdbc:mysql://localhost:3306/sheets?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: root
+        password: root
